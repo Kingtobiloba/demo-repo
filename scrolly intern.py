@@ -1,0 +1,10 @@
+myName = input ("Please enter your name: ")
+myAge = input ("What about your age: ")
+myEmail = input ('Please enter your email address: ')
+print ("Hello World, my name is " + myName +", and I am", myAge, "years old." "You can send me a mail via", myEmail,)
+print (''' Dear sir,
+the triple quote is used for a long multiple lines messageei''')
+userInput = input ('Enter 1 or 2: ')
+if userInput == "1": print ("Hello world")  
+elif userInput == "2": print ("Pythons is sweet!" "i love Python") 
+else : print ("You did not enter a valid number")
